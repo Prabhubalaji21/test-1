@@ -1,0 +1,35 @@
+JSON iterate overall for loops (for,forin,forof,foreach)
+1.what is JSON? -> Javascript Object Notation JSON is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and arrays.
+2.for loops
+There may be times where you feel you need to make a loop through the array of JSON objects in JavaScript. However, you no longer need to worry about this, as it can be done using an array of numbers, strings, or objects. There are numerous ways of looping in JavaScript and throughout this article we’ll help you grasp them.
+For loop -> it was used for condition to step gradual looping
+example
+var numbers = [ 10, 20, 30, 40, 50] 
+for (var i=0; i < numbers.length; i++) {
+   console.log(numbers[i])
+}
+For in loop -> Another way of looping is the For In Loop. Unlike the For Loop, this loop won’t be using a counter. So this makes the whole process even more simple and hassle-free. In fact, the For In Loop is essentially a simplified version of the For Loop.
+example
+var person = {
+   fname: "Nick",
+   lname: "Jonas",
+   age: 26
+}; 
+for (let x in person) {
+   console.log(x + ": "+ person[x])
+}
+The ForEach() Loop
+This method is used for looping through an array element. Here’s an example of this:
+var names = ["jerry", "tom", "pluto", "micky", "mini"];
+names.forEach(function1);
+function function1(currentValue, index) {
+   console.log("Index in array is: "+index + " ::  Value is: "+currentValue);
+}
+The For Of Loop
+The JavaScript for of statement loops through the values of an iterable object.
+
+It lets you loop over iterable data structures such as Arrays, Strings, Maps, NodeLists, and more:
+example:
+for (variable of iterable) {
+  // code block to be executed
+}
