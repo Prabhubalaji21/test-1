@@ -1,25 +1,3 @@
-// var a = 5;
-// var b = "value";
-// var c = true;
-// var x = a;
-// var y = b;
-// var z = c;
-// x = 4;
-// y = "guvi";
-// z = null;
-
-// console.log(a,b,c,x,y,z);
-//copy by value
-
-// var arr1 = [1,2,3];
-// var obj1 = { name: "prabhu", age :25};
-// var arr2 = arr1;
-// var obj2 = obj1;
-
-// arr2[1] = 6;
-// obj1.name = "balaji";
-// console.log(arr1,arr2,obj1,obj2);
-// copy by reference
 //json java script object notation
 var resume = {
     "Name" : "PRABHU BALAJI B",
